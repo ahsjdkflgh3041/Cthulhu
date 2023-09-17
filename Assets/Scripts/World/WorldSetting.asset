@@ -45,6 +45,16 @@ MonoBehaviour:
         distributePrecision: 2
         spawnConditionOnSection: 0
         spawnConditionOnOpenedAreaNumber: 0
+      - objectID: Male
+        isSpawnOnLoad: 1
+        initialSpawnCount: 1
+        spawnCountMax: 1
+        cycleCoefficientOnMax: 100
+        spawnCycleMin: 350
+        spawnCycleMax: 400
+        distributePrecision: 2
+        spawnConditionOnSection: 7
+        spawnConditionOnOpenedAreaNumber: 0
     - sectionPrefab: {fileID: 2156253339605112777, guid: 744a0f4c2ee8d6b439f8229cb65c4a74, type: 3}
       spawnBerrySettings:
       - objectID: BerryBush
@@ -311,16 +321,6 @@ MonoBehaviour:
         distributePrecision: 2
         spawnConditionOnSection: 4
         spawnConditionOnOpenedAreaNumber: 1
-      - objectID: Female
-        isSpawnOnLoad: 0
-        initialSpawnCount: 0
-        spawnCountMax: 2
-        cycleCoefficientOnMax: 5.5
-        spawnCycleMin: 35
-        spawnCycleMax: 45
-        distributePrecision: 3
-        spawnConditionOnSection: 5
-        spawnConditionOnOpenedAreaNumber: 2
       - objectID: Male
         isSpawnOnLoad: 0
         initialSpawnCount: 0
@@ -405,16 +405,6 @@ MonoBehaviour:
         distributePrecision: 2
         spawnConditionOnSection: 4
         spawnConditionOnOpenedAreaNumber: 1
-      - objectID: Female
-        isSpawnOnLoad: 0
-        initialSpawnCount: 0
-        spawnCountMax: 3
-        cycleCoefficientOnMax: 2.5
-        spawnCycleMin: 20
-        spawnCycleMax: 30
-        distributePrecision: 3
-        spawnConditionOnSection: 5
-        spawnConditionOnOpenedAreaNumber: 2
       - objectID: Male
         isSpawnOnLoad: 0
         initialSpawnCount: 0
@@ -463,21 +453,11 @@ MonoBehaviour:
         spawnCycleMax: 50
         distributePrecision: 4
       spawnAnimalSettings:
-      - objectID: Female
-        isSpawnOnLoad: 1
-        initialSpawnCount: 1
-        spawnCountMax: 4
-        cycleCoefficientOnMax: 2
-        spawnCycleMin: 20
-        spawnCycleMax: 30
-        distributePrecision: 3
-        spawnConditionOnSection: 7
-        spawnConditionOnOpenedAreaNumber: 0
       - objectID: Male
         isSpawnOnLoad: 0
         initialSpawnCount: 0
         spawnCountMax: 4
-        cycleCoefficientOnMax: 2
+        cycleCoefficientOnMax: 72.9
         spawnCycleMin: 25
         spawnCycleMax: 35
         distributePrecision: 2

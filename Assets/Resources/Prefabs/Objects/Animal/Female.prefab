@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1884942414340115746}
   - component: {fileID: 1884942414340115745}
-  - component: {fileID: 2519390896016064549}
   - component: {fileID: 1884942414340115759}
   - component: {fileID: 1884942414340115756}
   - component: {fileID: 208440355203444870}
@@ -141,6 +140,7 @@ GameObject:
   - component: {fileID: 1884942414340115750}
   - component: {fileID: 1884942414340115749}
   - component: {fileID: 1884942414340115747}
+  - component: {fileID: 2623685575834643561}
   m_Layer: 6
   m_Name: Female
   m_TagString: Untagged
@@ -180,22 +180,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.6
---- !u!114 &2519390896016064549
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1884942414340115748}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3635d486c5512824fabfb7252cd73e01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _attackRange: 1.5
-  _recognitionIn: 9
-  _recognitionOut: 16
-  timeToNextDestinationSetting: 7
 --- !u!114 &1884942414340115759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,3 +333,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   target: {fileID: 0}
+--- !u!114 &2623685575834643561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884942414340115748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f14ed775fc9c434d80decee2c965675, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attackRange: 1.5
+  _recognitionIn: 9
+  _recognitionOut: 16
+  timeToNextDestinationSetting: 7
+  isHitted: 0

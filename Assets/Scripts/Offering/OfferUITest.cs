@@ -42,6 +42,7 @@ public class OfferUITest : MonoBehaviour
 	}
 
 	public void Deactivate() {
+		Time.timeScale = 1f;
 		gameObject.SetActive(false);
 	}
 	#endregion

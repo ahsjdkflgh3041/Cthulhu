@@ -60,6 +60,7 @@ public class GameManager : Singleton<GameManager>
 			_tier++;
 			_player.HealSanity(20);
 			_offerui.gameObject.SetActive(true);
+			Time.timeScale = 0f;
 		}
 	}
 	#endregion
