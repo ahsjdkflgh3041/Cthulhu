@@ -27,7 +27,7 @@ public class OfferUITest : MonoBehaviour
 				(k) => OfferingManager.Instance.OfferingData.GetTierPresents(GameManager.Instance.Level)[k].InvokePresent(),
 				UnselectOther,
 				i
-			);;
+			);
 		}
 		_confirmButton.SetActive(false);
 	}

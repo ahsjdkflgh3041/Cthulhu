@@ -55,6 +55,16 @@ MonoBehaviour:
         distributePrecision: 2
         spawnConditionOnSection: 7
         spawnConditionOnOpenedAreaNumber: 0
+      - objectID: Female
+        isSpawnOnLoad: 1
+        initialSpawnCount: 1
+        spawnCountMax: 0
+        cycleCoefficientOnMax: 100
+        spawnCycleMin: 350
+        spawnCycleMax: 400
+        distributePrecision: 2
+        spawnConditionOnSection: 1
+        spawnConditionOnOpenedAreaNumber: 0
     - sectionPrefab: {fileID: 2156253339605112777, guid: 744a0f4c2ee8d6b439f8229cb65c4a74, type: 3}
       spawnBerrySettings:
       - objectID: BerryBush

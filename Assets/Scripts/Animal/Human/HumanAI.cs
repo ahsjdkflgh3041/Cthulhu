@@ -4,7 +4,7 @@ using TH.Core;
 using UnityEngine;
 
 [RequireComponent(typeof(Animal))]
-public class HumanAI : AnimalAI
+public class HumanAI : AnimalAI, IHittableHuman
 {
     #region PublicVariables
 	#endregion

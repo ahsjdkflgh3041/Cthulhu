@@ -69,7 +69,7 @@ MonoBehaviour:
   m_text: Debug
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 55abebc7b4aae2d4389158de3d075c74, type: 2}
-  m_sharedMaterial: {fileID: -5644787980513545567, guid: 55abebc7b4aae2d4389158de3d075c74, type: 2}
+  m_sharedMaterial: {fileID: 7097968905647269971, guid: 55abebc7b4aae2d4389158de3d075c74, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -207,9 +207,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _attackRange: 1.5
-  _recognitionIn: 11.14
+  _recognitionIn: 11
   _recognitionOut: 16
-  timeToNextDestinationSetting: 6.52
+  timeToNextDestinationSetting: 6.5
   _alertTimer: 0
   _alertTimeMax: 5
 --- !u!114 &2832221964150691120

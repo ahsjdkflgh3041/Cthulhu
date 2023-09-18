@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using TH.Core;
-using Sirenix.OdinInspector;
 
 [RequireComponent(typeof(DropItemSpawner))]
 public class WorldObject : MonoBehaviour, IHittable

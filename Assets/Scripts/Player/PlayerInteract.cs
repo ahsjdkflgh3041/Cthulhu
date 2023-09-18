@@ -21,11 +21,15 @@ public class PlayerInteract : MonoBehaviour
 		{
 			IInteractable targetInteract = target as IInteractable;
 			int currentIndex = _itemHandler.GetCurrentInventoryIndex();
-            if (currentIndex != -1)
-            {
+			if (currentIndex != -1)
+			{
 				targetInteract.Interact(_itemHandler.GetCurrentInventoryIndex());
 				EffectManager.Instance.SpawnDropEffect(_itemHandler.transform.position);
 				_itemHandler.PutIn();
+			}
+			else if (targetInteract as Merchant)
+			{
+				targetInteract.Interact(_itemHandler.GetCurrentInventoryIndex());
 			}
 		}
 	}

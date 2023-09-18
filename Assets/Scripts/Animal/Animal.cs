@@ -61,15 +61,15 @@ public class Animal : WorldObject
     public override void Hit(int damage)
     {
         base.Hit(damage);
-		if (_ai is HumanAI humanAI)
+		if (_ai is IHittableHuman hittableHuman)
 		{
-			humanAI.Hit();
+			hittableHuman.Hit();
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, detectionRange, objectLayer);
 
 			foreach (Collider2D collider in colliders)
 			{
 				// 특정 컴포넌트가 있는지 확인 (예: ItemComponent)
-				HumanAI foundHumanAI = collider.GetComponent<HumanAI>();
+				IHittableHuman foundHumanAI = collider.GetComponent<IHittableHuman>();
 
 				if (foundHumanAI != null)
 				{
